@@ -16,4 +16,4 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ## Live Demo
-[Coming soon — Streamlit Cloud]
+https://student-passfail-predictor.streamlit.app/
