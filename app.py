@@ -25,7 +25,7 @@ model=joblib.load("model/student_model.pkl")
 st.title("Student Pass Predictor")
 
 #input
-studytime=st.selectbox("Weekly study time(1-low, 4-high)",options=[1,2,3,4,"more"])
+studytime=st.selectbox("Weekly study time(1-low, 10-high)",options=[1,2,3,4,5,6,7,8,9,10])
 failures=st.selectbox("Nummber of Past Failures", options=[0, 1, 2, 3])
 
 absences = st.slider("Number of Absences", min_value=0, max_value=93, value=5)
